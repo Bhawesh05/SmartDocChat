@@ -1,0 +1,28 @@
+# SmartDocChat .gitignore
+# Author: Bhawesh Patankar | GitHub: Bhawesh05
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Embeddings (generated at runtime)
+embeddings/faiss_index/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

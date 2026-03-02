@@ -1,0 +1,7 @@
+# SmartDocChat Git Attributes
+# Author: Bhawesh Patankar | GitHub: Bhawesh05
+
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
